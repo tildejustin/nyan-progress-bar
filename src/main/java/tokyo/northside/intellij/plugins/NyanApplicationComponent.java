@@ -2,18 +2,24 @@ package tokyo.northside.intellij.plugins;
 
 import com.intellij.ide.ui.LafManager;
 import com.intellij.ide.ui.LafManagerListener;
+import com.intellij.openapi.application.ApplicationActivationListener;
+import com.intellij.openapi.wm.IdeFrame;
 import org.jetbrains.annotations.NotNull;
 
 import javax.swing.UIManager;
 
-public class NyanApplicationComponent implements LafManagerListener {
+public class NyanApplicationComponent implements LafManagerListener, ApplicationActivationListener {
     public NyanApplicationComponent() {
-        updateProgressBarUi();
     }
 
     @Override
     public void lookAndFeelChanged(@NotNull LafManager lafManager) {
         // see https://plugins.jetbrains.com/docs/intellij/plugin-listeners.html
+        updateProgressBarUi();
+    }
+
+    @Override
+    public void applicationActivated(@NotNull IdeFrame ideFrame) {
         updateProgressBarUi();
     }
 
