@@ -16,7 +16,7 @@
   </actions>
 
   <applicationListeners>
-    <listener class="tokyo.northside.intellij.plugins.NyanApplicationComponent" topic="com.intellij.ide.ui.LafManagerListener"/>
-    <listener class="tokyo.northside.intellij.plugins.NyanApplicationComponent" topic="com.intellij.openapi.application.ApplicationActivationListener"/>
+    <listener class="tokyo.northside.intellij.plugins.nyan.NyanApplicationComponent" topic="com.intellij.ide.ui.LafManagerListener"/>
+    <listener class="tokyo.northside.intellij.plugins.nyan.NyanApplicationComponent" topic="com.intellij.openapi.application.ApplicationActivationListener"/>
   </applicationListeners>
 </idea-plugin>
