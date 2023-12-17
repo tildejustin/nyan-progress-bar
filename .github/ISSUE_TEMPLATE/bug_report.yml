@@ -21,7 +21,7 @@ body:
         If possible, run the failing task with `--stacktrace` flag.
         
         *This will be automatically formatted into code, so there is no need for backticks.*
-      render: shell
+      render: sh
 
   - type: textarea
     id: steps
