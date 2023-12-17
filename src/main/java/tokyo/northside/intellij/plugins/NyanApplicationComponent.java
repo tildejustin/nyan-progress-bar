@@ -1,6 +1,8 @@
+package tokyo.northside.intellij.plugins;
+
 import com.intellij.ide.ui.LafManager;
 
-import javax.swing.*;
+import javax.swing.UIManager;
 
 public class NyanApplicationComponent {
     public NyanApplicationComponent() {
