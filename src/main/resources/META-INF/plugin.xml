@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>tokyo.northside.intellij.plugins.NyanProgressBar</id>
   <name>Nyan Progress Bar</name>
-  <vendor email="miurahr@linux.com">Hiroshi Miura</vendor>
+  <vendor email="tildejustin@gmail.com">tildejustin</vendor>
 
   <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
        on how to target different products -->

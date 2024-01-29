@@ -1,12 +1,11 @@
 package tokyo.northside.intellij.plugins.nyan;
 
-import com.intellij.ide.ui.LafManager;
-import com.intellij.ide.ui.LafManagerListener;
+import com.intellij.ide.ui.*;
 import com.intellij.openapi.application.ApplicationActivationListener;
 import com.intellij.openapi.wm.IdeFrame;
 import org.jetbrains.annotations.NotNull;
 
-import javax.swing.UIManager;
+import javax.swing.*;
 
 public class NyanApplicationComponent implements LafManagerListener, ApplicationActivationListener {
     public NyanApplicationComponent() {
